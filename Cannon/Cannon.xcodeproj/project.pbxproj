@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1A32421A7EA82400996013 /* Blocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A32411A7EA82400996013 /* Blocker.swift */; };
+		4E1A32441A7EA85B00996013 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A32431A7EA85B00996013 /* Target.swift */; };
+		4E1A32461A7EA88D00996013 /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A32451A7EA88D00996013 /* Canon.swift */; };
+		4E1A32481A7EA8B800996013 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A32471A7EA8B800996013 /* GameOverScene.swift */; };
 		4E21EE501A7C156300E64D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E21EE4F1A7C156300E64D1F /* AppDelegate.swift */; };
 		4E21EE521A7C156300E64D1F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4E21EE511A7C156300E64D1F /* GameScene.sks */; };
 		4E21EE541A7C156300E64D1F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E21EE531A7C156300E64D1F /* GameScene.swift */; };
@@ -31,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E1A32411A7EA82400996013 /* Blocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blocker.swift; sourceTree = "<group>"; };
+		4E1A32431A7EA85B00996013 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		4E1A32451A7EA88D00996013 /* Canon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canon.swift; sourceTree = "<group>"; };
+		4E1A32471A7EA8B800996013 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		4E21EE4A1A7C156300E64D1F /* Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cannon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E21EE4E1A7C156300E64D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E21EE4F1A7C156300E64D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +104,10 @@
 				4E21EE5A1A7C156300E64D1F /* Images.xcassets */,
 				4E21EE5C1A7C156300E64D1F /* LaunchScreen.xib */,
 				4E21EE4D1A7C156300E64D1F /* Supporting Files */,
+				4E1A32411A7EA82400996013 /* Blocker.swift */,
+				4E1A32431A7EA85B00996013 /* Target.swift */,
+				4E1A32451A7EA88D00996013 /* Canon.swift */,
+				4E1A32471A7EA8B800996013 /* GameOverScene.swift */,
 			);
 			path = Cannon;
 			sourceTree = "<group>";
@@ -241,7 +253,11 @@
 			files = (
 				4E21EE541A7C156300E64D1F /* GameScene.swift in Sources */,
 				4E21EE561A7C156300E64D1F /* GameViewController.swift in Sources */,
+				4E1A32481A7EA8B800996013 /* GameOverScene.swift in Sources */,
+				4E1A32421A7EA82400996013 /* Blocker.swift in Sources */,
+				4E1A32461A7EA88D00996013 /* Canon.swift in Sources */,
 				4E21EE501A7C156300E64D1F /* AppDelegate.swift in Sources */,
+				4E1A32441A7EA85B00996013 /* Target.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +451,7 @@
 				4E21EE6F1A7C156300E64D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E21EE701A7C156300E64D1F /* Build configuration list for PBXNativeTarget "CannonTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +460,7 @@
 				4E21EE721A7C156300E64D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
