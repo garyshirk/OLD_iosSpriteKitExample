@@ -94,8 +94,8 @@ class Canon: SKNode {
         cannonball.physicsBody?.linearDamping = 0.0
         cannonball.physicsBody?.allowsRotation = true
         cannonball.physicsBody?.usesPreciseCollisionDetection = true
-//        cannonball.physicsBody?.categoryBitMask = CollisionCategory.Cannonball
-//        cannonball.physicsBody?.contactTestBitMask = CollisionCategory.Target | CollisionCategory.Blocker | CollisionCategory.Wall
+        cannonball.physicsBody?.categoryBitMask = CollisionCategory.Cannonball
+        cannonball.physicsBody?.contactTestBitMask = CollisionCategory.Target | CollisionCategory.Blocker | CollisionCategory.Wall
         return cannonball
     }
 

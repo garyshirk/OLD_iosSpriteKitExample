@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 //  Cannon
-//
-//  Created by Gary Shirk on 1/30/15.
-//  Copyright (c) 2015 garyshirk. All rights reserved.
-//
 
 import UIKit
 

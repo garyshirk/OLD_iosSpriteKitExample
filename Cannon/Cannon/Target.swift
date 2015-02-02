@@ -43,8 +43,8 @@ class Target: SKSpriteNode {
         self.physicsBody?.linearDamping = 0.0
         self.physicsBody?.allowsRotation = true
         self.physicsBody?.usesPreciseCollisionDetection = true
-        //self.physicsBody?.categoryBitMask = CollisionCategory.Target
-        //self.physicsBody?.contactTestBitMask = CollisionCategory.Cannonball
+        self.physicsBody?.categoryBitMask = CollisionCategory.Target
+        self.physicsBody?.contactTestBitMask = CollisionCategory.Cannonball
         
     }
 
